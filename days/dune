@@ -2,5 +2,19 @@
 
 (library
  (name aoc_days)
- (libraries aoc_lib base stdio str psq re grid ppx_sexp_conv ppx_compare ppx_hash)
+ (libraries
+   aoc_lib
+   base
+   core 
+   stdio
+   str
+   digestif.c
+   domainslib
+   psq
+   re
+   grid
+   ppx_sexp_conv
+   ppx_compare
+   ppx_hash
+ )
  (preprocess (pps ppx_compare ppx_sexp_conv ppx_hash)))
