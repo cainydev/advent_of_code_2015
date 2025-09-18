@@ -1,4 +1,4 @@
-λ advent_of_code_2015 (master) make run\
+### λ advent_of_code_2015 (master) make run
 🐪 Day 1\
 ├─ Part 1 ⇒ 280                  (took 0.1299 ms)\
 └─ Part 2 ⇒ 1797                 (took 0.0551 ms)
